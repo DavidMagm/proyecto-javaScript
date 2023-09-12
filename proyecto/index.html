@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>Matematicas en Javascript</header>
+    <main>
+        <h2>Presupuesto</h2>
+        <div class="content">
+
+            <label for="uno">Arriendo</label> 
+            <input type="number" name="uno" id="uno" class="pres"/>
+    
+            <label for="dos">Comida</label>
+            <input type="number" name="dos" id="dos" class="pres"/>
+    
+            <label for="tres">Transporte</label>
+            <input type="number" name="tres" id="tres" class="pres"/>
+            <label for="tres">Servicios publicos</label>
+            <input type="number" name="cuatro" id="cuatro" class="pres"/>
+            <label for="tres">Otros</label>
+            <input type="number" name="cinco" id="cinco" class="pres"/>
+
+            
+
+
+
+        </div>
+        <!-- <input type="number" id="total"> -->
+        <label for="total">Total</label>
+        <input id="total"></input>
+        <h2>Interes compuesto</h2>
+        <div id="content-compuest" class="content">
+            <label for="capital">Capital inicial</label>
+            <input id="capital" type="number" class="pres">
+
+            <label for="interes">Monto diario</label>
+            <input id="interes" type="number" class="pres">
+            <select name="" id="option-interes">
+                <option value="select">Select</option>
+                <option value="Diary">Diary</option>
+                <option value="Monthly">Monthly</option>
+                <option value="Annual">Annual</option>
+            </select>
+
+            <label for="time">Tiempo</label>
+            <input id="time" type="number" class="pres">
+            <select name="" id="option-time">
+                <option value="select">Select</option>
+                <option value="Diary">Day</option>
+                <option value="Monthly">Month</option>
+                <option value="Annual">Year</option>
+            </select>
+            <label for="total-compuest">Monto total</label>
+            <input id="total-compuest" class="pres" />
+
+            <button id="btn-compuest">Calcular</button>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

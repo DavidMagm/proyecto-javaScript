@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    margin: 20px auto;
+}
+header {
+    text-align: center;
+    font-size: 48px;
+}
+h2 {
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+    place-content: center;
+    margin: 0 auto;
+    padding: 12px 0 16px 0;
+    width: 50%;
+    border: 2px solid darkseagreen;
+    border-radius: 8px;
+}
+#content-compuest input {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 20px;
+}
+.pres {
+    width: 40%;
+    height: 28px;
+}
+select {
+    width: 200px;
+    margin-bottom: 14px;
+}
+#total {
+    margin-top: 24px;
+    height: 28px;
+}
+#total::placeholder {
+    color: #f00;
+}
+#total-compuest::placeholder {
+    color: black;
+}
+#btn-compuest {
+    margin: 0 auto;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #8a8585;
+    border-radius: 4px;
+    font-weight: bold;
+}
